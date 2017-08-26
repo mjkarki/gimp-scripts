@@ -5,9 +5,9 @@ Extensions I have created to simplify my workflow.
 
 #### batch-crop.scm
 
-When I need to take a large amounts of screenshots, it's easiest to just hit Print Screen button and paste the entire screen contents to GIMP with Ctrl+Shift+V. Then I use this script automatically to crop all open images to same size.
+When I need to take a large amounts of screenshots, it's easiest to just hit Print Screen button and paste the entire screen contents to GIMP with Shift+Ctrl+V. Then I use this script automatically to crop all open images to same size.
 
-By using the rectangle selection tool to frame the area from *just one* of the open images and then executing this script (from the drop-down menu *Image --> Crop All Images*) I'm able to automatically crop all images from the exact same area to identical sized images. This makes it easy to document different views of an application.
+By using the rectangle selection tool to frame the area from *just one* of the open images and then executing this script (from the drop-down menu *Image --> Crop All Images*) I'm able to automatically crop all images from the exact same area to identical sized images. So, batch cropping, in other words.
 
 #### mask-color-to-alpha.scm
 
