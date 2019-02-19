@@ -3,6 +3,15 @@ My GIMP scripts
 
 Extensions I have created to simplify my workflow.
 
+#### Installation under Windows
+
+```
+cd %appdata%\GIMP\2.10\scripts
+git clone https://github.com/mjkarki/gimp-scripts.git
+```
+
+GIMP should be able to find all scripts automatically. If the GIMP is already running, execute *Filters --> Script-Fu --> Refresh Scripts*.
+
 #### batch-crop.scm
 
 When I need to take a large amounts of screenshots, it's easiest to just hit Print Screen button and paste the entire screen contents to GIMP with Shift+Ctrl+V. Then I use this script automatically to crop all open images to same size.
