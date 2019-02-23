@@ -1,6 +1,6 @@
 (script-fu-register
  "script-fu-mask-color-to-alpha"                                              ; Function name
- "Mask Color to Alpha Channel"                                                ; Menu label
+ "Mask Color to Alpha Channel..."                                                ; Menu label
  "Replaces selected mask color with alpha channel and clears the mask color." ; Description
  "Matti J. Kärki <mjk@iki.fi>"                                                ; Author
  "Copyright 2015, Matti J. Kärki"                                             ; Copyright information
@@ -12,7 +12,7 @@
 
 (script-fu-menu-register
  "script-fu-mask-color-to-alpha"
- "<Image>/Layer/Transparency")
+ "<Image>/Colors")
 
 (define (script-fu-mask-color-to-alpha image layer color)
   (gimp-layer-add-alpha layer)

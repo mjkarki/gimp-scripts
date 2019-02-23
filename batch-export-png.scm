@@ -1,6 +1,6 @@
 (script-fu-register
  "script-fu-batch-export-png"
- "Export All Images to PNG"
+ "Export All Images to PNG..."
  "Exports all open images to PNG files."
  "Matti J. Kärki <mjk@iki.fi>"
  "Copyright 2019, Matti J. Kärki"
