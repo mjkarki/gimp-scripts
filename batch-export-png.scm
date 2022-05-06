@@ -14,7 +14,7 @@
 
 (define (script-fu-batch-export-png folder)
   (for-each (lambda (img)
-              (let ((filename (string-append folder "\\image_" (number->string img) ".png")))
+              (let ((filename (string-append folder "/image_" (number->string img) ".png")))
                 (file-png-save RUN-NONINTERACTIVE
                                img
                                (car (gimp-image-get-active-drawable img))
